@@ -1,0 +1,50 @@
+# All files within this folder
+tracks:
+  - track:
+      name: "Acyuta Gopi--16 May 2019.mp3"
+      artist: "Acyuta Gopi"
+      date: "16 May 2019"
+      location: "Bhakti Center, NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Acyuta%20Gopi--16%20May%202019.mp3"
+  - track:
+      name: "Acyuta Gopi--18 April 2019.mp3"
+      artist: "Acyuta Gopi"
+      date: "18 April 2019"
+      location: "Bhakti Center, NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Acyuta%20Gopi--18%20April%202019.mp3"
+  - track:
+      name: "Rupa Vilas--6 March 2020.mp3"
+      artist: "Rupa Vilas"
+      date: "6 March 2020"
+      location: "Bhakti Center, NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Rupa%20Vilas--6%20March%202020.mp3"
+  - track:
+      name: "Vasudev--2 January 2020.mp3"
+      artist: "Vasudev"
+      date: "2 January 2020"
+      location: "Bhakti Center, NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Vasudev--2%20January%202020.mp3"
+  - track:
+      name: "Namarasa--12 December 2019.mp3"
+      artist: "Namarasa"
+      date: "12 December 2019"
+      location: "Bhakti Center, NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Namarasa--12%20December%202019.mp3"
+  - track:
+      name: "Akincana Krishna--6 June 2019.mp3"
+      artist: "Akincana Krishna"
+      date: "6 June 2019"
+      location: "Bhakti Center, NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Akincana%20Krishna--6%20June%202019.mp3"
+  - track:
+      name: "Yadubara Prabhu--25 Feb 2003.mp3"
+      artist: "Yadubara Prabhu"
+      date: "25 Feb 2003"
+      location: "Unknown"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Yadubara%20Prabhu--25%20Feb%202003.mp3"
+  - track:
+      name: "Badahari--June 9, 2004, NYC.mp3"
+      artist: "Badahari"
+      date: "June 9, 2004"
+      location: "NYC"
+      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Badahari--June%209,%202004,%20NYC.mp3"
