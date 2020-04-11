@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.full {
+  background-image: url("./desktop/KIRTAN_WEB_background.png");
+}
+
+.mantra-top {
+  height:60vh;
+}
+
+.mantra-text {
+  /* background-image: url("./desktop/KIRTAN_WEB_text.svg"); */
+}
+
+
