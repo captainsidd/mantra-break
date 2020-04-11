@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.4bbca3bd.chunk.js",
-    "main.js.map": "/static/js/main.4bbca3bd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5bd85aa4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5bd85aa4.js.map",
-    "static/css/2.440ac8e8.chunk.css": "/static/css/2.440ac8e8.chunk.css",
-    "static/js/2.312b2ff9.chunk.js": "/static/js/2.312b2ff9.chunk.js",
-    "static/js/2.312b2ff9.chunk.js.map": "/static/js/2.312b2ff9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ae98ed207571141a4be1ba3e91806a81.js": "/precache-manifest.ae98ed207571141a4be1ba3e91806a81.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.440ac8e8.chunk.css.map": "/static/css/2.440ac8e8.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.312b2ff9.chunk.js.LICENSE.txt": "/static/js/2.312b2ff9.chunk.js.LICENSE.txt"
+    "main.css": "/corona-kirtan/static/css/main.5f361e03.chunk.css",
+    "main.js": "/corona-kirtan/static/js/main.d7c1d286.chunk.js",
+    "main.js.map": "/corona-kirtan/static/js/main.d7c1d286.chunk.js.map",
+    "runtime-main.js": "/corona-kirtan/static/js/runtime-main.badb9094.js",
+    "runtime-main.js.map": "/corona-kirtan/static/js/runtime-main.badb9094.js.map",
+    "static/css/2.440ac8e8.chunk.css": "/corona-kirtan/static/css/2.440ac8e8.chunk.css",
+    "static/js/2.312b2ff9.chunk.js": "/corona-kirtan/static/js/2.312b2ff9.chunk.js",
+    "static/js/2.312b2ff9.chunk.js.map": "/corona-kirtan/static/js/2.312b2ff9.chunk.js.map",
+    "index.html": "/corona-kirtan/index.html",
+    "precache-manifest.92dd46d285f4c73016207950d36017d7.js": "/corona-kirtan/precache-manifest.92dd46d285f4c73016207950d36017d7.js",
+    "service-worker.js": "/corona-kirtan/service-worker.js",
+    "static/css/2.440ac8e8.chunk.css.map": "/corona-kirtan/static/css/2.440ac8e8.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/corona-kirtan/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.312b2ff9.chunk.js.LICENSE.txt": "/corona-kirtan/static/js/2.312b2ff9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5bd85aa4.js",
+    "static/js/runtime-main.badb9094.js",
     "static/css/2.440ac8e8.chunk.css",
     "static/js/2.312b2ff9.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.4bbca3bd.chunk.js"
+    "static/js/main.d7c1d286.chunk.js"
   ]
 }
