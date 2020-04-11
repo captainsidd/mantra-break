@@ -6,16 +6,22 @@ viewBox="0 0 29362 18351"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
    <clipPath id="id0">
+    <path d="M12382 1653l4602 0 0 1346 -4602 0 0 -1346z"/>
+   </clipPath>
+   <clipPath id="id1">
     <rect width="29362" height="18351"/>
    </clipPath>
-    <clipPath id="id1">
+    <clipPath id="id2">
      <rect width="29362" height="18351"/>
     </clipPath>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
   <g style="clip-path:url(#id0)">
-   <image style="clip-path:url(#id1)" x="0" y="-76" width="29362" height="22115" xlink:href="KIRTAN_WEB_background_Images\KIRTAN_WEB_background_ImgID1.png"/>
+   <image x="6" y="-6044" width="29362" height="16516" xlink:href="KIRTAN_WEB_background_Images\KIRTAN_WEB_background_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image style="clip-path:url(#id2)" x="0" y="-76" width="29362" height="22115" xlink:href="KIRTAN_WEB_background_Images\KIRTAN_WEB_background_ImgID2.png"/>
   </g>
  </g>
 </svg>
