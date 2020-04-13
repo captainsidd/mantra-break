@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/corona-kirtan/precache-manifest.92dd46d285f4c73016207950d36017d7.js"
+  "/corona-kirtan/precache-manifest.328efbc3eda31eccbfc77f342287cd61.js"
 );
 
 self.addEventListener('message', (event) => {
