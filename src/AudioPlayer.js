@@ -37,12 +37,18 @@ class Player extends React.Component {
       newTrack['src'] = track['track']['url'];
       newPlaylist.push(newTrack);
     });
-
-    // @TODO shuffle playlist
+    this.shuffle(newPlaylist);
 
     this.setState({
       playlist: newPlaylist
     });
+  }
+
+  shuffle = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
   }
 
   handleClickPrevious = () => {
