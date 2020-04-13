@@ -1,7 +1,10 @@
 import React from 'react';
 import AudioPlayer from 'react-h5-audio-player';
+import Container from 'react-bootstrap/Container';
 import 'react-h5-audio-player/lib/styles.css';
 import YAML from 'yamljs';
+
+import player from './large/player_buttons.png'
 
 const FILES_YAML = "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/files.yaml"
 
@@ -74,17 +77,24 @@ class Player extends React.Component {
       srcUrl = this.state.playlist[this.state.currentMusicIndex].src
     }
 
-    return <div>
-      <AudioPlayer
-        showSkipControls={true}
-        showJumpControls={false}
-        autoPlayAfterSrcChange={true}
-        onClickPrevious={this.handleClickPrevious}
-        onClickNext={this.handleClickNext}
-        onEnded={this.handleClickNext}
-        src={srcUrl}
-      />
-    </div>
+    return (
+      <Container>
+        <img className="player-buttons" src={player} alt=""></img>
+        <AudioPlayer
+          className="audio-player"
+          showSkipControls={true}
+          showJumpControls={false}
+          autoPlayAfterSrcChange={true}
+          onClickPrevious={this.handleClickPrevious}
+          onClickNext={this.handleClickNext}
+          onEnded={this.handleClickNext}
+          src={srcUrl}
+          style={{
+            width: '60%'
+          }}
+        />
+      </Container>
+    )
   }
 }
 
