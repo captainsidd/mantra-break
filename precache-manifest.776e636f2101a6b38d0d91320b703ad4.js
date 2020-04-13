@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "760cc26f09850f2ec03e3fcd6c69e245",
+    "revision": "e605cd6b07d868582b85b31aa9131299",
     "url": "/corona-kirtan/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-kirtan/static/css/2.121930fd.chunk.css"
   },
   {
-    "revision": "06572a77c0cf2c754583",
-    "url": "/corona-kirtan/static/css/main.f10b34ae.chunk.css"
+    "revision": "38ac2fadc430323fa621",
+    "url": "/corona-kirtan/static/css/main.8dda5366.chunk.css"
   },
   {
     "revision": "1201621dc0f2bc06ff7c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corona-kirtan/static/js/2.0ebc908c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06572a77c0cf2c754583",
+    "revision": "38ac2fadc430323fa621",
     "url": "/corona-kirtan/static/js/main.d2fac31f.chunk.js"
   },
   {
