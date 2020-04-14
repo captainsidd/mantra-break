@@ -8,6 +8,22 @@ import player from './large/player_buttons.png'
 
 const FILES_YAML = "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/files.yaml"
 
+
+function getArtistCredit(track) {
+  if (track.location === "Radhadesh Mellows") {
+    return (
+      <div className="artist-credit">
+        Kirtan Led By {track.artist} | <a href={track.homepage}>Radhadesh Mellows</a>
+      </div>
+    )
+  }
+  return (
+    <div className="artist-credit">
+      Kirtan Led By {track.artist}
+    </div>
+  )
+}
+
 class Player extends React.Component {
   constructor(props) {
     super(props);
@@ -35,6 +51,8 @@ class Player extends React.Component {
       newTrack['artist'] = track['track']['artist'];
       newTrack['date'] = track['track']['date'];
       newTrack['src'] = track['track']['url'];
+      newTrack['location'] = track['track']['location'];
+      newTrack['homepage'] = track['track']['homepage'];
       newPlaylist.push(newTrack);
     });
     this.shuffle(newPlaylist);
@@ -73,8 +91,10 @@ class Player extends React.Component {
 
   render() {
     let srcUrl = "";
+    let artistCredit = ""
     if (this.state.playlist.length !== 0) {
       srcUrl = this.state.playlist[this.state.currentMusicIndex].src
+      artistCredit = getArtistCredit(this.state.playlist[this.state.currentMusicIndex])
     }
 
     return (
@@ -85,6 +105,7 @@ class Player extends React.Component {
           showSkipControls={true}
           showJumpControls={false}
           autoPlayAfterSrcChange={true}
+          header={artistCredit}
           onClickPrevious={this.handleClickPrevious}
           onClickNext={this.handleClickNext}
           onEnded={this.handleClickNext}

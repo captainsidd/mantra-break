@@ -1,24 +1,6 @@
 # All files within this folder
 tracks:
   - track:
-      name: "Acyuta Gopi--16 May 2019.mp3"
-      artist: "Acyuta Gopi"
-      date: "16 May 2019"
-      location: "Bhakti Center, NYC"
-      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Acyuta%20Gopi--16%20May%202019.mp3"
-  - track:
-      name: "Acyuta Gopi--18 April 2019.mp3"
-      artist: "Acyuta Gopi"
-      date: "18 April 2019"
-      location: "Bhakti Center, NYC"
-      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Acyuta%20Gopi--18%20April%202019.mp3"
-  - track:
-      name: "Rupa Vilas--6 March 2020.mp3"
-      artist: "Rupa Vilas"
-      date: "6 March 2020"
-      location: "Bhakti Center, NYC"
-      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Rupa%20Vilas--6%20March%202020.mp3"
-  - track:
       name: "Vasudev--2 January 2020.mp3"
       artist: "Vasudev"
       date: "2 January 2020"
@@ -48,3 +30,63 @@ tracks:
       date: "June 9, 2004"
       location: "NYC"
       url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Badahari--June%209,%202004,%20NYC.mp3"
+  - track:
+      name: "Ananta Gauranga - Day 1 - Radhadesh Mellows 2020.mp3"
+      artist: "Ananta Gauranga"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Ananta%20Gauranga%20-%20Day%201%20-%20Radhadesh%20Mellows%202020.mp3"
+  - track:
+      name: "Bada Haridas - Day 1 - Radhadesh Mellows 2020.mp3"
+      artist: "Bada Haridas"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Day%201%20-%20Radhadesh%20Mellows%202020.mp3"
+  - track:
+      name: "Gour Krsna - Day 2 - Radhadesh Mellows 2019.mp3"
+      artist: "Gour Krsna"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Gour%20Krsna%20-%20Day%202%20-%20Radhadesh%20Mellows%202019.mp3"
+  - track:
+      name: "Hari Kirtan - Day 2 - Radhadesh Mellows 2019.mp3"
+      artist: "Hari Kirtan"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Hari%20Kirtan%20-%20Day%202%20-%20Radhadesh%20Mellows%202019.mp3"
+  - track:
+      name: "Jahnavi Jivana - Day 1 - Radhadesh Mellows 2020.mp3"
+      artist: "Jahnavi Jivana"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Jahnavi%20Jivana%20-%20Day%201%20-%20Radhadesh%20Mellows%202020.mp3"
+  - track:
+      name: "Kishor Gopal - Day 1 - Radhadesh Mellows 2019.mp3"
+      artist: "Kishor Gopal"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Kishor%20Gopal%20-%20Day%201%20-%20Radhadesh%20Mellows%202019.mp3"
+  - track:
+      name: "Madhava - Day 2 - Radhadesh Mellows 2020.mp3"
+      artist: "Madhava"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Madhava%20-%20Day%202%20-%20Radhadesh%20Mellows%202020.mp3"
+  - track:
+      name: "Nadiya Mani - Day 3 - Radhadesh Mellows 2020.mp3"
+      artist: "Nadiya Mani"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Nadiya%20Mani%20-%20Day%203%20-%20Radhadesh%20Mellows%202020.mp3"
+  - track:
+      name: "Sacinandana Swami - Day 2 - Radhadesh Mellows 2020.mp3"
+      artist: "Sacinandana Swami"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Sacinandana%20Swami%20-%20Day%202%20-%20Radhadesh%20Mellows%202020.mp3"
+  - track:
+      name: "Tulasi Nadia - Day 1 - Radhadesh Mellows 2019.mp3"
+      artist: "Tulasi Nadia"
+      location: "Radhadesh Mellows"
+      homepage: "https://radhadeshmellows.com/"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Tulasi%20Nadia%20-%20Day%201%20-%20Radhadesh%20Mellows%202019.mp3"
