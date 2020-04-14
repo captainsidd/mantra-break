@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a89b92a108ea0f01393bf5c954fccf66",
+    "revision": "17fc0dab0d1c6a24634aa392646a99db",
     "url": "/mantra-break/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mantra-break/static/css/2.121930fd.chunk.css"
   },
   {
-    "revision": "9b90dce83bdcd7d0421f",
+    "revision": "5fcdf6bbfb06ed1331f0",
     "url": "/mantra-break/static/css/main.0b941222.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mantra-break/static/js/2.0ebc908c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b90dce83bdcd7d0421f",
-    "url": "/mantra-break/static/js/main.3aec4187.chunk.js"
+    "revision": "5fcdf6bbfb06ed1331f0",
+    "url": "/mantra-break/static/js/main.7f8f18a7.chunk.js"
   },
   {
     "revision": "635cf2ece5c79f0a9564",
