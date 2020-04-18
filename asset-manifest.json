@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/mantra-break/static/css/main.0b941222.chunk.css",
-    "main.js": "/mantra-break/static/js/main.7f8f18a7.chunk.js",
-    "main.js.map": "/mantra-break/static/js/main.7f8f18a7.chunk.js.map",
+    "main.css": "/mantra-break/static/css/main.38d1d299.chunk.css",
+    "main.js": "/mantra-break/static/js/main.05f9f7c1.chunk.js",
+    "main.js.map": "/mantra-break/static/js/main.05f9f7c1.chunk.js.map",
     "runtime-main.js": "/mantra-break/static/js/runtime-main.e4a819bd.js",
     "runtime-main.js.map": "/mantra-break/static/js/runtime-main.e4a819bd.js.map",
-    "static/css/2.121930fd.chunk.css": "/mantra-break/static/css/2.121930fd.chunk.css",
-    "static/js/2.0ebc908c.chunk.js": "/mantra-break/static/js/2.0ebc908c.chunk.js",
-    "static/js/2.0ebc908c.chunk.js.map": "/mantra-break/static/js/2.0ebc908c.chunk.js.map",
+    "static/css/2.de424728.chunk.css": "/mantra-break/static/css/2.de424728.chunk.css",
+    "static/js/2.9e93bbdf.chunk.js": "/mantra-break/static/js/2.9e93bbdf.chunk.js",
+    "static/js/2.9e93bbdf.chunk.js.map": "/mantra-break/static/js/2.9e93bbdf.chunk.js.map",
     "index.html": "/mantra-break/index.html",
-    "precache-manifest.c839661c19c54caaf76b11f2f31aea75.js": "/mantra-break/precache-manifest.c839661c19c54caaf76b11f2f31aea75.js",
+    "precache-manifest.31f0777731b5d8b4ede5d16ba91e58f4.js": "/mantra-break/precache-manifest.31f0777731b5d8b4ede5d16ba91e58f4.js",
     "service-worker.js": "/mantra-break/service-worker.js",
-    "static/css/2.121930fd.chunk.css.map": "/mantra-break/static/css/2.121930fd.chunk.css.map",
-    "static/css/main.0b941222.chunk.css.map": "/mantra-break/static/css/main.0b941222.chunk.css.map",
-    "static/js/2.0ebc908c.chunk.js.LICENSE.txt": "/mantra-break/static/js/2.0ebc908c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/mantra-break/static/media/background.63a26a97.png",
-    "static/media/bottom_text.png": "/mantra-break/static/media/bottom_text.f12d7647.png",
+    "static/css/2.de424728.chunk.css.map": "/mantra-break/static/css/2.de424728.chunk.css.map",
+    "static/css/main.38d1d299.chunk.css.map": "/mantra-break/static/css/main.38d1d299.chunk.css.map",
+    "static/js/2.9e93bbdf.chunk.js.LICENSE.txt": "/mantra-break/static/js/2.9e93bbdf.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mantra-break/static/media/background.7c538b67.png",
+    "static/media/bottom_text.png": "/mantra-break/static/media/bottom_text.f1a0a948.png",
     "static/media/left_icons.png": "/mantra-break/static/media/left_icons.cd5dd878.png",
-    "static/media/player_buttons.png": "/mantra-break/static/media/player_buttons.c0e9888b.png",
-    "static/media/right_icons.png": "/mantra-break/static/media/right_icons.5ed952b7.png",
-    "static/media/top_text.png": "/mantra-break/static/media/top_text.1fef2bf6.png"
+    "static/media/player.png": "/mantra-break/static/media/player.db316bfc.png",
+    "static/media/player_buttons.png": "/mantra-break/static/media/player_buttons.c9ae8686.png",
+    "static/media/right_icons.png": "/mantra-break/static/media/right_icons.d2138c08.png",
+    "static/media/top_text.png": "/mantra-break/static/media/top_text.92c536de.png",
+    "static/media/top_text_alt.png": "/mantra-break/static/media/top_text_alt.d6e3a0c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e4a819bd.js",
-    "static/css/2.121930fd.chunk.css",
-    "static/js/2.0ebc908c.chunk.js",
-    "static/css/main.0b941222.chunk.css",
-    "static/js/main.7f8f18a7.chunk.js"
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.9e93bbdf.chunk.js",
+    "static/css/main.38d1d299.chunk.css",
+    "static/js/main.05f9f7c1.chunk.js"
   ]
 }
