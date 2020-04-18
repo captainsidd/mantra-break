@@ -1,10 +1,13 @@
 import React from 'react';
-import AudioPlayer from 'react-h5-audio-player';
-import Container from 'react-bootstrap/Container';
-import 'react-h5-audio-player/lib/styles.css';
+import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
+import './player.css';
 import YAML from 'yamljs';
 
-import player from './large/player_buttons.png'
+import largePlayer from './large/player_buttons.png'
+import medPlayer from './med/player_buttons.png'
+import playerButtons from './small/player_buttons.png'
+import smallPlayer from './small/player.png'
+import Media from 'react-media';
 
 const FILES_YAML = "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/files.yaml"
 
@@ -98,23 +101,36 @@ class Player extends React.Component {
     }
 
     return (
-      <Container>
-        <img className="player-buttons" src={player} alt=""></img>
-        <AudioPlayer
-          className="audio-player"
-          showSkipControls={true}
-          showJumpControls={false}
-          autoPlayAfterSrcChange={true}
-          header={artistCredit}
-          onClickPrevious={this.handleClickPrevious}
-          onClickNext={this.handleClickNext}
-          onEnded={this.handleClickNext}
-          src={srcUrl}
-          style={{
-            width: '60%'
-          }}
-        />
-      </Container>
+        <Media queries={{
+          small: "(max-width: 499px)",
+          medium: "(min-width: 500px) and (max-width: 899px)",
+          large: "(min-width: 900px)"
+        }}>
+          {matches => (
+            <div>
+              {matches.large &&
+                <div>
+                  <img className="player-buttons" src={largePlayer} alt=""></img>
+                  <AudioPlayer
+                    className="audio-player"
+                    showSkipControls={true}
+                    showJumpControls={false}
+                    autoPlayAfterSrcChange={true}
+                    header={artistCredit}
+                    onClickPrevious={this.handleClickPrevious}
+                    onClickNext={this.handleClickNext}
+                    onEnded={this.handleClickNext}
+                    src={srcUrl}
+                    style={{
+                      width: "60%",
+                      height: "auto",
+                    }}
+                  />
+                </div>
+              }
+            </div>
+          )}
+        </Media>
     )
   }
 }

@@ -1,11 +1,26 @@
 import React from 'react';
-import icons from './large/left_icons.png'
+import largeIcons from './large/left_icons.png'
+import midIcons from './med/left_icons.png'
+import smallIcons from './small/left_icons.png'
+import Media from 'react-media';
 
 class LeftIcons extends React.Component {
 
   render() {
     return <div>
-      <img className="icons-left" src={icons} alt=""></img>
+      <Media queries={{
+        small: "(max-width: 499px)",
+        medium: "(min-width: 500px) and (max-width: 899px)",
+        large: "(min-width: 900px)"
+      }}>
+        {matches => (
+          <div>
+            {/* {matches.small && <img className="icons-left" src={smallIcons} alt=""></img>} */}
+            {matches.medium && <img className="icons-left" src={midIcons} alt=""></img>}
+            {matches.large && <img className="icons-left" src={largeIcons} alt=""></img>}
+          </div>
+        )}
+        </Media>
     </div>
   }
 }

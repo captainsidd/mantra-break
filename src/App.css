@@ -1,82 +1,83 @@
-.full {
-  background-image: url("./large/background.png");
-  background-size: cover;
+@media(min-width: 900px) {
+  .full {
+    background-image: url("./large/background.png");
+    background-size: cover;
+  }
+
+  .mantra-top {
+    height: 65vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .top-left {
+    text-align: center;
+  }
+
+  .icons-left {
+    width: auto;
+    height: 90vh;
+  }
+
+  .top-mid {
+    text-align: center;
+  }
+
+  .text-top {
+    width: auto;
+    height: 55vh;
+  }
+
+  .top-right {
+    text-align: center;
+  }
+
+  .icons-right {
+    width: auto;
+    height: 90vh;
+  }
+
+  .mantra-player {
+    height: 20vh;
+  }
+
+  .ply-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .player-buttons {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .audio-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mantra-btm {
+    height: 15vh;
+  }
+
+  .btm-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .text-btm {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
-.mantra-top {
-  height: 60vh;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.top-left {
-  text-align: center;
-}
-
-.icons-left {
-  width: auto;
-  height: 90vh;
-}
-
-.top-mid {
-  text-align: center;
-}
-
-.text-top {
-  width: auto;
-  height: 55vh;
-}
-
-.top-right {
-  text-align: center;
-}
-
-.icons-right {
-  width: auto;
-  height: 90vh;
-}
-
-.mantra-player {
-  height: 20vh;
-}
-
-.ply-mid {
-  text-align: center;
-  position: relative;
-}
-
-.player-buttons {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.audio-player {
-  /* width: 50%; THIS IS SET IN THE REACT COMPONENT */
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.mantra-btm {
-  height: 20vh;
-}
-
-.btm-mid {
-  text-align: center;
-  position: relative;
-}
-
-.text-btm {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}

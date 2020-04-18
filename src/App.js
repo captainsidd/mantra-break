@@ -15,23 +15,23 @@ function App() {
   return (
     <Container fluid className="full">
       <Row className="mantra-top">
-        <Col xl={2} lg={2} md={2} sm={1} className="top-left">
+        <Col xl={2} lg={2} md={2} sm={2} className="top-left">
           <LeftIcons/>
         </Col>
-        <Col xl={8} lg={8} md={8} sm={10} className="top-mid">
+        <Col xl={8} lg={8} md={8} sm={8} className="top-mid">
           <TopText />
         </Col>
-        <Col xl={2} lg={2} md={2} sm={1} className="top-right">
+        <Col xl={2} lg={2} md={2} sm={2} className="top-right">
           <RightIcons />
         </Col>
       </Row>
 
       <Row className="mantra-player">
-        <Col xl={3} lg={3} md={3} sm={1} className="ply-left" />
-        <Col xl={6} lg={6} md={6} sm={10} className="ply-mid">
+        <Col xl={3} lg={3} md={2} sm={1} className="ply-left" />
+        <Col xl={6} lg={6} md={8} sm={10} className="ply-mid">
           <Player />
         </Col>
-        <Col xl={3} lg={3} md={3} sm={1} className="ply-right" />
+        <Col xl={3} lg={3} md={2} sm={1} className="ply-right" />
       </Row>
 
       <Row className="mantra-btm">
