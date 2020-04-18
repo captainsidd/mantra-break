@@ -14,7 +14,6 @@ class Buttons extends React.Component {
         {matches => (
           <div>
             {matches.small && <img className="buttons" src={button} alt=""></img>}
-            {matches.medium && <img className="buttons" src={button} alt=""></img>}
           </div>
         )}
       </Media>

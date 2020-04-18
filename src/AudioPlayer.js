@@ -129,7 +129,7 @@ class Player extends React.Component {
               }
               {matches.medium &&
                 <div>
-                  <img className="player-buttons" src={smallPlayer} alt=""></img>
+                  <img className="player-buttons" src={medPlayer} alt=""></img>
                   <AudioPlayer
                     className="audio-player"
                     showSkipControls={true}
@@ -141,7 +141,7 @@ class Player extends React.Component {
                     onEnded={this.handleClickNext}
                     src={srcUrl}
                     style={{
-                      width: "60%",
+                      width: "50%",
                       height: "auto",
                     }}
                   />

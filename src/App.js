@@ -16,13 +16,13 @@ function App() {
   return (
     <Container fluid className="full">
       <Row className="mantra-top">
-        <Col xl={2} lg={3} md={3} sm={2} className="top-left">
+        <Col xl={2} lg={2} md={2} sm={2} className="top-left">
           <LeftIcons/>
         </Col>
-        <Col xl={8} lg={6} md={6} sm={8} className="top-mid">
+        <Col xl={8} lg={8} md={8} sm={8} className="top-mid">
           <TopText />
         </Col>
-        <Col xl={2} lg={3} md={3} sm={2} className="top-right">
+        <Col xl={2} lg={2} md={2} sm={2} className="top-right">
           <RightIcons />
         </Col>
       </Row>
