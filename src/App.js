@@ -16,39 +16,39 @@ function App() {
   return (
     <Container fluid className="full">
       <Row className="mantra-top">
-        <Col xl={2} lg={2} md={2} sm={2} className="top-left">
+        <Col xl={2} lg={2} md={2} sm={2} xs={2} className="top-left">
           <LeftIcons/>
         </Col>
-        <Col xl={8} lg={8} md={8} sm={8} className="top-mid">
+        <Col xl={8} lg={8} md={8} sm={8} xs={8} className="top-mid">
           <TopText />
         </Col>
-        <Col xl={2} lg={2} md={2} sm={2} className="top-right">
+        <Col xl={2} lg={2} md={2} sm={2} xs={2} className="top-right">
           <RightIcons />
         </Col>
       </Row>
 
       <Row className="mantra-player">
-        <Col xl={3} lg={3} md={2} sm={1} className="ply-left" />
-        <Col xl={6} lg={6} md={8} sm={10} className="ply-mid">
+        <Col xl={3} lg={3} md={2} sm={2} xs={2} className="ply-left" />
+        <Col xl={6} lg={6} md={8} sm={8} xs={8} className="ply-mid">
           <Player />
         </Col>
-        <Col xl={3} lg={3} md={2} sm={1} className="ply-right" />
+        <Col xl={3} lg={3} md={2} sm={2} xs={2} className="ply-right" />
       </Row>
 
       <Row className="mantra-buttons">
-        <Col xl={4} lg={4} md={4} sm={4} className="pbn-left" />
-        <Col xl={4} lg={4} md={4} sm={4} className="pbn-mid">
+        <Col xl={4} lg={4} md={4} sm={4} xs={4} className="pbn-left" />
+        <Col xl={4} lg={4} md={4} sm={4} xs={4} className="pbn-mid">
           <Buttons />
         </Col>
-        <Col xl={4} lg={4} md={4} sm={4} className="pbn-right" />
+        <Col xl={4} lg={4} md={4} sm={4} xs={4} className="pbn-right" />
       </Row>
 
       <Row className="mantra-btm">
-        <Col xl={2} lg={2} md={2} sm={1} className="btm-left" />
-        <Col xl={8} lg={8} md={8} sm={10} className="btm-mid">
+        <Col xl={2} lg={2} md={2} sm={2} xs={2}className="btm-left" />
+        <Col xl={8} lg={8} md={8} sm={8} xs={8} className="btm-mid">
           <BottomText />
         </Col>
-        <Col xl={2} lg={2} md={2} sm={1} className="btm-right" />
+        <Col xl={2} lg={2} md={2} sm={2} xs={2} className="btm-right" />
       </Row>
     </Container>
   );

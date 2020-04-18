@@ -169,10 +169,9 @@
   }
 }
 
-/*
-@media(min-width: 700px) and (max-width: 1149px) {
+@media(max-width: 699px) {
   .full {
-    background-image: url("./med/background.png");
+    background-image: url("./small/background.png");
     background-size: cover;
   }
 
@@ -272,4 +271,4 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-} */
+}
