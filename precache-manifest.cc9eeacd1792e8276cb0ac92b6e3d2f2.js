@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71352205868671ee42665453ed97d26c",
+    "revision": "6e85aa44ea93d994f4fdb973c855e339",
     "url": "/mantra-break/index.html"
   },
   {
-    "revision": "f5323440591f7de35c1f",
+    "revision": "f5afeb0422726c81036c",
     "url": "/mantra-break/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "aaf84b4b00b258396359",
-    "url": "/mantra-break/static/css/main.38d1d299.chunk.css"
+    "revision": "641600944a56baa87500",
+    "url": "/mantra-break/static/css/main.5a01cb3e.chunk.css"
   },
   {
-    "revision": "f5323440591f7de35c1f",
-    "url": "/mantra-break/static/js/2.9e93bbdf.chunk.js"
+    "revision": "f5afeb0422726c81036c",
+    "url": "/mantra-break/static/js/2.a88b88e5.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/mantra-break/static/js/2.9e93bbdf.chunk.js.LICENSE.txt"
+    "url": "/mantra-break/static/js/2.a88b88e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aaf84b4b00b258396359",
-    "url": "/mantra-break/static/js/main.05f9f7c1.chunk.js"
+    "revision": "641600944a56baa87500",
+    "url": "/mantra-break/static/js/main.a24816c4.chunk.js"
   },
   {
     "revision": "635cf2ece5c79f0a9564",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c538b6722c12e5737d94fc0ed92dce6",
     "url": "/mantra-break/static/media/background.7c538b67.png"
+  },
+  {
+    "revision": "dd31e09ca58e1bcea2f632870f9d46bb",
+    "url": "/mantra-break/static/media/background.dd31e09c.png"
   },
   {
     "revision": "58b174ea273611993e66f67a5c58e367",
