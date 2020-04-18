@@ -1,4 +1,4 @@
-@media(min-width: 900px) {
+@media(min-width: 1150px) {
   .full {
     background-image: url("./large/background.png");
     background-size: cover;
@@ -8,6 +8,14 @@
     height: 65vh;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+
+  .mantra-player {
+    height: 20vh;
+  }
+
+  .mantra-btm {
+    height: 15vh;
   }
 
   .top-left {
@@ -24,8 +32,9 @@
   }
 
   .text-top {
-    width: auto;
-    height: 55vh;
+    width: 100%;
+    height: auto;
+    max-height: 55vh;
   }
 
   .top-right {
@@ -35,10 +44,6 @@
   .icons-right {
     width: auto;
     height: 90vh;
-  }
-
-  .mantra-player {
-    height: 20vh;
   }
 
   .ply-mid {
@@ -62,10 +67,6 @@
     transform: translate(-50%, -50%);
   }
 
-  .mantra-btm {
-    height: 15vh;
-  }
-
   .btm-mid {
     text-align: center;
     position: relative;
@@ -81,3 +82,106 @@
   }
 }
 
+@media(min-width: 700px) and (max-width: 1149px) {
+  .full {
+    background-image: url("./med/background.png");
+    background-size: cover;
+  }
+
+  .mantra-top {
+    height: 50vh;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+
+  .mantra-player {
+    height: 25vh;
+  }
+
+  .mantra-buttons {
+    height: 10vh;
+  }
+
+  .mantra-btm {
+    height: 15vh;
+  }
+
+  .top-left {
+    text-align: center;
+  }
+
+  .icons-left {
+    width: auto;
+    height: 90vh;
+    padding-right: 5%;
+  }
+
+  .top-mid {
+    text-align: center;
+  }
+
+  .text-top {
+    width: 100%;
+    height: auto;
+    max-height: 45vh;
+  }
+
+  .top-right {
+    text-align: center;
+  }
+
+  .icons-right {
+    width: auto;
+    height: 90vh;
+    padding-left: 5%;
+  }
+
+  .ply-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .player-buttons {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .audio-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pbn-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .buttons {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btm-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .text-btm {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

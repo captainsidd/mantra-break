@@ -9,13 +9,13 @@ class BottomText extends React.Component {
   render() {
     return <div>
       <Media queries={{
-        small: "(max-width: 499px)",
-        medium: "(min-width: 500px) and (max-width: 899px)",
-        large: "(min-width: 900px)"
+        small: "(max-width: 699px)",
+        medium: "(min-width: 700px) and (max-width: 1149px)",
+        large: "(min-width: 1150px)"
       }}>
         {matches => (
           <div>
-            {/* {matches.small && <img className="text-btm" src={smallText} alt=""></img>} */}
+            {matches.small && <img className="text-btm" src={smallText} alt=""></img>}
             {matches.medium && <img className="text-btm" src={midText} alt=""></img>}
             {matches.large && <img className="text-btm" src={largeText} alt=""></img>}
           </div>

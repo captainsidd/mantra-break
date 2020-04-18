@@ -1,11 +1,10 @@
 import React from 'react';
-import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
+import AudioPlayer from 'react-h5-audio-player';
 import './player.css';
 import YAML from 'yamljs';
 
 import largePlayer from './large/player_buttons.png'
 import medPlayer from './med/player_buttons.png'
-import playerButtons from './small/player_buttons.png'
 import smallPlayer from './small/player.png'
 import Media from 'react-media';
 
@@ -102,15 +101,55 @@ class Player extends React.Component {
 
     return (
         <Media queries={{
-          small: "(max-width: 499px)",
-          medium: "(min-width: 500px) and (max-width: 899px)",
-          large: "(min-width: 900px)"
+        small: "(max-width: 699px)",
+        medium: "(min-width: 700px) and (max-width: 1149px)",
+        large: "(min-width: 1150px)"
         }}>
           {matches => (
             <div>
               {matches.large &&
                 <div>
                   <img className="player-buttons" src={largePlayer} alt=""></img>
+                  <AudioPlayer
+                    className="audio-player"
+                    showSkipControls={true}
+                    showJumpControls={false}
+                    autoPlayAfterSrcChange={true}
+                    header={artistCredit}
+                    onClickPrevious={this.handleClickPrevious}
+                    onClickNext={this.handleClickNext}
+                    onEnded={this.handleClickNext}
+                    src={srcUrl}
+                    style={{
+                      width: "60%",
+                      height: "auto",
+                    }}
+                  />
+                </div>
+              }
+              {matches.medium &&
+                <div>
+                  <img className="player-buttons" src={smallPlayer} alt=""></img>
+                  <AudioPlayer
+                    className="audio-player"
+                    showSkipControls={true}
+                    showJumpControls={false}
+                    autoPlayAfterSrcChange={true}
+                    header={artistCredit}
+                    onClickPrevious={this.handleClickPrevious}
+                    onClickNext={this.handleClickNext}
+                    onEnded={this.handleClickNext}
+                    src={srcUrl}
+                    style={{
+                      width: "60%",
+                      height: "auto",
+                    }}
+                  />
+                </div>
+              }
+              {matches.small &&
+                <div>
+                  <img className="player-buttons" src={smallPlayer} alt=""></img>
                   <AudioPlayer
                     className="audio-player"
                     showSkipControls={true}
