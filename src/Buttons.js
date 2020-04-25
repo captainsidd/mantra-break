@@ -13,7 +13,17 @@ class Buttons extends React.Component {
       }}>
         {matches => (
           <div>
-            {matches.small && <img className="buttons" src={button} alt=""></img>}
+            {matches.small &&
+              <div>
+                <img className="buttons" src={button} alt=""></img>
+                <div>
+                  <a href="https://www.facebook.com/brooklynlotus" className="link-left">&nbsp;</a>
+                </div>
+                <div>
+                  <a href="https://www.facebook.com/iskconnyc" className="link-right">&nbsp;</a>
+                </div>
+              </div>
+            }
           </div>
         )}
       </Media>

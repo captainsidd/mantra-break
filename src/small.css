@@ -78,6 +78,13 @@
     position: relative;
   }
 
+  .link-left {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 15vh;
+  }
+
   .buttons {
     width: 100%;
     height: auto;
@@ -85,6 +92,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .link-right {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 15vh;
   }
 
   .btm-mid {

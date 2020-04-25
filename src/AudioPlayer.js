@@ -111,10 +111,13 @@ class Player extends React.Component {
               {matches.large &&
                 <div>
                   <img className="player-buttons" src={largePlayer} alt=""></img>
+                  <div>
+                    <a href="https://www.facebook.com/brooklynlotus" className="link-left">&nbsp;</a>
+                  </div>
+                  <div>
+                    <a href="https://www.facebook.com/iskconnyc" className="link-right">&nbsp;</a>
+                  </div>
                   <Row>
-                    <div className="link-left">
-                      <a href="https://www.facebook.com/brooklynlotus">&nbsp;</a>
-                    </div>
                     <AudioPlayer
                       className="audio-player"
                       showSkipControls={true}
@@ -130,9 +133,6 @@ class Player extends React.Component {
                         height: "auto",
                       }}
                     />
-                    <div className="link-right">
-                      <a href="https://www.facebook.com/iskconnyc">&nbsp;</a>
-                    </div>
                   </Row>
 
                 </div>
@@ -140,6 +140,12 @@ class Player extends React.Component {
               {matches.medium &&
                 <div>
                   <img className="player-buttons" src={medPlayer} alt=""></img>
+                  <div>
+                    <a href="https://www.facebook.com/brooklynlotus" className="link-left">&nbsp;</a>
+                  </div>
+                  <div>
+                    <a href="https://www.facebook.com/iskconnyc" className="link-right">&nbsp;</a>
+                  </div>
                   <AudioPlayer
                     className="audio-player"
                     showSkipControls={true}
