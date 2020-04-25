@@ -1,0 +1,94 @@
+@media(min-width: 700px) and (max-width: 1149px) {
+  .mantra-top {
+    height: 55vh;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+
+  .mantra-player {
+    height: 25vh;
+  }
+
+  .mantra-btm {
+    height: 15vh;
+  }
+
+  .mantra-ftr {
+    height: 5vh;
+  }
+
+  .top-left {
+    text-align: center;
+  }
+
+  .icons-left {
+    width: auto;
+    height: 90vh;
+    padding-right: 5%;
+  }
+
+  .top-mid {
+    text-align: center;
+  }
+
+  .text-top {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh;
+  }
+
+  .top-right {
+    text-align: center;
+  }
+
+  .icons-right {
+    width: auto;
+    height: 90vh;
+    padding-left: 5%;
+  }
+
+  .ply-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .player-buttons {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .audio-player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btm-mid {
+    text-align: center;
+    position: relative;
+  }
+
+  .text-btm {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-ftr {
+    width: auto;
+    height: 5vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
