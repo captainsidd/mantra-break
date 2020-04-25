@@ -2,6 +2,7 @@ import React from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 import './player.css';
 import YAML from 'yamljs';
+import Row from 'react-bootstrap/Row';
 
 import largePlayer from './large/player_buttons.png'
 import medPlayer from './med/player_buttons.png'
@@ -110,21 +111,30 @@ class Player extends React.Component {
               {matches.large &&
                 <div>
                   <img className="player-buttons" src={largePlayer} alt=""></img>
-                  <AudioPlayer
-                    className="audio-player"
-                    showSkipControls={true}
-                    showJumpControls={false}
-                    autoPlayAfterSrcChange={true}
-                    header={artistCredit}
-                    onClickPrevious={this.handleClickPrevious}
-                    onClickNext={this.handleClickNext}
-                    onEnded={this.handleClickNext}
-                    src={srcUrl}
-                    style={{
-                      width: "60%",
-                      height: "auto",
-                    }}
-                  />
+                  <Row>
+                    <div className="link-left">
+                      <a href="https://www.facebook.com/brooklynlotus">&nbsp;</a>
+                    </div>
+                    <AudioPlayer
+                      className="audio-player"
+                      showSkipControls={true}
+                      showJumpControls={false}
+                      autoPlayAfterSrcChange={true}
+                      header={artistCredit}
+                      onClickPrevious={this.handleClickPrevious}
+                      onClickNext={this.handleClickNext}
+                      onEnded={this.handleClickNext}
+                      src={srcUrl}
+                      style={{
+                        width: "60%",
+                        height: "auto",
+                      }}
+                    />
+                    <div className="link-right">
+                      <a href="https://www.facebook.com/iskconnyc">&nbsp;</a>
+                    </div>
+                  </Row>
+
                 </div>
               }
               {matches.medium &&

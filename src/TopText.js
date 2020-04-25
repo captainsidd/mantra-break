@@ -1,6 +1,6 @@
 import React from 'react';
 // import largeText from './large/top_text.png'
-import largeText from './large/top_text_alt.png'
+import largeText from './large/top_text.png'
 import midText from './med/top_text.png'
 import smallText from './small/top_text.png'
 import Media from 'react-media';
@@ -11,8 +11,8 @@ class TopText extends React.Component {
     return <div>
       <Media queries={{
         small: "(max-width: 699px)",
-        medium: "(min-width: 700px) and (max-width: 1149px)",
-        large: "(min-width: 1150px)"
+        medium: "(min-width: 700px) and (max-width: 999px)",
+        large: "(min-width: 1000px)"
       }}>
         {matches => (
           <div>
