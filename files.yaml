@@ -63,33 +63,41 @@ tracks:
   - track:
       name: "Bada Haridas - Kirtan Under the Stars.mp3"
       artist: "Bada Haridas"
+      homepage: "https://www.youtube.com/watch?v=j75sPlsNK3o"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Kirtan%20Under%20the%20Stars.mp3"
   - track:
       name: "Bada Haridas - Maha Mantra.mp3"
       artist: "Bada Haridas"
+      homepage: "https://www.youtube.com/watch?v=dw37-4_FXas"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Maha%20Mantra.mp3"
   - track:
       name: "Bada Haridas - Maha Mantra(Sri Nama).mp3"
       artist: "Bada Haridas"
+      homepage: "https://www.youtube.com/watch?v=iFvQbiiNh5I"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Maha%20Mantra%20(Sri%20Nam).mp3"
   - track:
       name: "Hare Krishna Maha Mantra Chant Meditation Kirtan by Jade Green & SPYS.mp3"
       artist: "Jade Green & SPYS"
+      homepage: "https://www.youtube.com/watch?v=04Ga25v-PEo"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Hare%20Krishna%20Maha%20Mantra%20Chant%20Meditation%20Kirtan%20by%20Jade%20Green%20&%20SPYS.mp3"
   - track:
       name: "Hare Krishna Maha Mantra Chanting Meditation by Premananda Kirtan Das.mp3"
       artist: "Premananda Kirtan Das"
+      homepage: "https://www.youtube.com/watch?v=4406Jq-1fbs"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Hare%20Krishna%20Maha%20Mantra%20Chanting%20Meditation%20by%20Premananda%20Kirtan%20Das.mp3"
   - track:
       name: "Jahnavi Harrison - Vrikshavalli Hare Krishna (feat. Gaura Vani).mp3"
       artist: "Jahnavi Harrison (feat. Gaura Vani)"
+      homepage: "https://www.youtube.com/watch?v=lhVQDaVjxf4"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Jahnavi%20Harrison%20-%20Vrikshavalli%20Hare%20Krishna%20(feat.%20Gaura%20Vani).mp3"
   - track:
       name: "Kindred Spirits - Maha Mantra (Live Recording).mp3"
       artist: "Kindred Spirits"
+      homepage: "https://www.youtube.com/watch?v=E66g4CGhqzY"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Kindred%20Spirits%20-%20Maha%20Mantra%20(Live%20Recording).mp3"
   - track:
       name: "Sri Prahlada - Reunion (Maha Mantra).mp3"
       artist: "Sri Prahlada"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Sri%20Prahlada%20-%20Reunion%20(Maha%20Mantra).mp3"
+      homepage: "https://www.youtube.com/watch?v=yp20VCBYWao"
 

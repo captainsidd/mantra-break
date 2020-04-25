@@ -20,6 +20,13 @@ function getArtistCredit(track) {
       </div>
     )
   }
+  if (track.homepage && track.homepage.startsWith("https://www.youtube.com")){
+    return (
+      <div className="artist-credit">
+        Kirtan Led By {track.artist} | <a href={track.homepage}>YouTube</a>
+      </div>
+    )
+  }
   return (
     <div className="artist-credit">
       Kirtan Led By {track.artist}
