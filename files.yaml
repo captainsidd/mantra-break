@@ -1,12 +1,6 @@
 # All files within this folder
 tracks:
   - track:
-      name: "Vasudev--2 January 2020.mp3"
-      artist: "Vasudev"
-      date: "2 January 2020"
-      location: "Bhakti Center, NYC"
-      url: "https://iskconnyc.nyc3.cdn.digitaloceanspaces.com/Vasudev--2%20January%202020.mp3"
-  - track:
       name: "Namarasa--12 December 2019.mp3"
       artist: "Namarasa"
       date: "12 December 2019"
@@ -49,23 +43,11 @@ tracks:
       homepage: "https://radhadeshmellows.com/"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Gour%20Krsna%20-%20Day%202%20-%20Radhadesh%20Mellows%202019.mp3"
   - track:
-      name: "Jahnavi Jivana - Day 1 - Radhadesh Mellows 2020.mp3"
-      artist: "Jahnavi Jivana"
-      location: "Radhadesh Mellows"
-      homepage: "https://radhadeshmellows.com/"
-      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Jahnavi%20Jivana%20-%20Day%201%20-%20Radhadesh%20Mellows%202020.mp3"
-  - track:
       name: "Kishor Gopal - Day 1 - Radhadesh Mellows 2019.mp3"
       artist: "Kishor Gopal"
       location: "Radhadesh Mellows"
       homepage: "https://radhadeshmellows.com/"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Kishor%20Gopal%20-%20Day%201%20-%20Radhadesh%20Mellows%202019.mp3"
-  - track:
-      name: "Madhava - Day 2 - Radhadesh Mellows 2020.mp3"
-      artist: "Madhava"
-      location: "Radhadesh Mellows"
-      homepage: "https://radhadeshmellows.com/"
-      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Madhava%20-%20Day%202%20-%20Radhadesh%20Mellows%202020.mp3"
   - track:
       name: "Nadiya Mani - Day 3 - Radhadesh Mellows 2020.mp3"
       artist: "Nadiya Mani"
@@ -73,14 +55,41 @@ tracks:
       homepage: "https://radhadeshmellows.com/"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Nadiya%20Mani%20-%20Day%203%20-%20Radhadesh%20Mellows%202020.mp3"
   - track:
-      name: "Sacinandana Swami - Day 2 - Radhadesh Mellows 2020.mp3"
-      artist: "Sacinandana Swami"
-      location: "Radhadesh Mellows"
-      homepage: "https://radhadeshmellows.com/"
-      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Sacinandana%20Swami%20-%20Day%202%20-%20Radhadesh%20Mellows%202020.mp3"
-  - track:
       name: "Tulasi Nadia - Day 1 - Radhadesh Mellows 2019.mp3"
       artist: "Tulasi Nadia"
       location: "Radhadesh Mellows"
       homepage: "https://radhadeshmellows.com/"
       url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Tulasi%20Nadia%20-%20Day%201%20-%20Radhadesh%20Mellows%202019.mp3"
+  - track:
+      name: "Bada Haridas - Kirtan Under the Stars.mp3"
+      artist: "Bada Haridas"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Kirtan%20Under%20the%20Stars.mp3"
+  - track:
+      name: "Bada Haridas - Maha Mantra.mp3"
+      artist: "Bada Haridas"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Maha%20Mantra.mp3"
+  - track:
+      name: "Bada Haridas - Maha Mantra(Sri Nama).mp3"
+      artist: "Bada Haridas"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Bada%20Haridas%20-%20Maha%20Mantra%20(Sri%20Nam).mp3"
+  - track:
+      name: "Hare Krishna Maha Mantra Chant Meditation Kirtan by Jade Green & SPYS.mp3"
+      artist: "Jade Green & SPYS"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Hare%20Krishna%20Maha%20Mantra%20Chant%20Meditation%20Kirtan%20by%20Jade%20Green%20&%20SPYS.mp3"
+  - track:
+      name: "Hare Krishna Maha Mantra Chanting Meditation by Premananda Kirtan Das.mp3"
+      artist: "Premananda Kirtan Das"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Hare%20Krishna%20Maha%20Mantra%20Chanting%20Meditation%20by%20Premananda%20Kirtan%20Das.mp3"
+  - track:
+      name: "Jahnavi Harrison - Vrikshavalli Hare Krishna (feat. Gaura Vani).mp3"
+      artist: "Jahnavi Harrison (feat. Gaura Vani)"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Jahnavi%20Harrison%20-%20Vrikshavalli%20Hare%20Krishna%20(feat.%20Gaura%20Vani).mp3"
+  - track:
+      name: "Kindred Spirits - Maha Mantra (Live Recording).mp3"
+      artist: "Kindred Spirits"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Kindred%20Spirits%20-%20Maha%20Mantra%20(Live%20Recording).mp3"
+  - track:
+      name: "Sri Prahlada - Reunion (Maha Mantra).mp3"
+      artist: "Sri Prahlada"
+      url: "https://iskconnyc.nyc3.digitaloceanspaces.com/Sri%20Prahlada%20-%20Reunion%20(Maha%20Mantra).mp3"
+
