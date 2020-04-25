@@ -12,7 +12,7 @@ class TopText extends React.Component {
       <Media queries={{
         small: "(max-width: 699px)",
         medium: "(min-width: 700px) and (max-width: 1049px)",
-        large: "(min-width: 11500px)"
+        large: "(min-width: 1150px)"
       }}>
         {matches => (
           <div>
